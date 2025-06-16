@@ -1,0 +1,22 @@
+{
+  "name": "gellanbori",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://github.com/merkapto/merkapto.github.io",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vitejs/plugin-legacy": "^6.1.1",
+    "create-vite": "^6.5.0",
+    "fund": "^1.0.0",
+    "vite": "^6.3.5"
+  }
+}
