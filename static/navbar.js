@@ -5,8 +5,8 @@ const NAV =
     nav a {background: black}
 </style> 
 <ul>
-    <li><a href="/">- GellanBori -</a></li>
-    <li class=math>Matematik
+    <li><a href="/">/GellanBori</a></li>
+    <li class=math>-Matematik
       <div class=nav_menu>
         <a href="/pages/math/egim-hesapla.html">Eğim Hesapla</a>
         <a href="/pages/math/aci-bul.html">Açı Bul</a>
@@ -14,7 +14,7 @@ const NAV =
         <a href="/pages/math/kelime-say.html">Kelime Say</a>
       </div>
     </li>
-    <li class=pdf>PDF
+    <li class=pdf>-PDF
       <div class=nav_menu>
         <a href="/JS/math/Counting.html">Counting</a>
         <a href="/JS/math/Math%20functions.html">Math Functions</a>
@@ -31,7 +31,7 @@ const NAV =
         <a href="/JS/canvas/solar_system.html">Solar System</a>
       </div>
     </li>
-    <li class=karekod>Karekod
+    <li class=karekod>-Karekod
       <div class=nav_menu>
         <a href="/JS/hard/JS%20page.html">Page made by JS</a>
         <a href="/JS/hard/Table%20maker.html">Table Maker</a>
@@ -48,7 +48,7 @@ const NAV =
         <a href="/JS/sss/inspector.html">Inspector</a>
       </div>
     </li>
-    <li class=diger>Diğer
+    <li class=diger>-Diğer
       <div class=nav_menu>
         <a href="/JS/api/qrcode.html">QR Code</a>
         <a href="/JS/api/GitHub_Users.html">GitHub Users</a>
