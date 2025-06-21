@@ -2,7 +2,7 @@
 const NAV = 
 `<link href="/static/navbar.css" rel="stylesheet">
 <style>
-    nav a {background: wheat}
+    nav a {background: black}
 </style> 
 <ul>
     <li class=math>Matematik

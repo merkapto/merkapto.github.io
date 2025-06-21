@@ -1,11 +1,11 @@
 body {
-  margin-top: 40px;
+  margin-top: 60px;
 /* user-select: none;*/
 }
 nav {
   width: 100%;
   position: fixed;
-  top: 0;
+  top: 10;
   margin-left: -8px;
   font-family: sans-serif;
 }
@@ -41,12 +41,12 @@ nav li, nav a {
   text-align: left;
   font-size: initial;
   background: yellow;
-  color: blue;
+  color: white;
   width: initial;
   padding: 8px 10px;
   margin: 0;
 }
 nav li:hover, nav a:hover {
-  background: blue;
-  color: yellow;
+  background: white;
+  color: black;
 }
