@@ -19,9 +19,9 @@ nav ul {
   background: black;
 }
 nav li {
-  font-size: xx-large;
-  align-content: center;
-  text-align: center;
+  font-size: x-large;
+  /* align-content: center; */
+  /* text-align: center; */
   display: inline-block;
 }
 nav div {
