@@ -4,7 +4,6 @@ body {
 /* user-select: none;*/
 }
 nav {
-  text-align: center;
   width: 100%;
   position: fixed;
   top: 0;
@@ -12,6 +11,8 @@ nav {
   font-family: monospace;
 }
 nav ul {
+  text-align: center;
+  font-size: large;
   display: flex;
   white-space: nowrap;
   top: 0;
@@ -50,5 +51,5 @@ nav li, nav a {
 }
 nav li:hover, nav a:hover {
   background: black;
-  color: white;
+  color: green;
 }
