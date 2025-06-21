@@ -11,8 +11,9 @@ nav {
   font-family: monospace;
 }
 nav ul {
+  align-content: center;
   text-align: center;
-  font-size: large;
+  font-size: xx-large;
   display: flex;
   white-space: nowrap;
   top: 0;
