@@ -11,7 +11,6 @@ nav {
   font-family: monospace;
 }
 nav ul {
-  /* text-align: center; */
   display: flex;
   white-space: nowrap;
   top: 0;
@@ -20,11 +19,12 @@ nav ul {
   background: black;
 }
 nav li {
+  font-size: xx-large;
+  align-content: center;
+  text-align: center;
   display: inline-block;
 }
 nav div {
-  align-content: center;
-  font-size: xx-large;
   position: absolute;
   margin-top: 3px;
   display: none;
