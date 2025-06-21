@@ -5,25 +5,15 @@ const NAV =
     nav a {background: wheat}
 </style> 
 <ul>
-    <li class=Simple>Simple
+    <li class=math>Matematik
       <div class=nav_menu>
-        <a href="/JS/simple/Date%20test.html">Date and Color</a>
-        <a href="/JS/simple/char_count.html">Char Count</a>
-        <a href="/JS/simple/word_count.html">Word Count</a>
-        <a href="/JS/simple/Compare%20Colors.html">Compare Colors</a>
-        <a href="/JS/simple/HTML%20items.html">HTML Items</a>
-        <a href="/JS/simple/Calculator.html">Calculator</a>
-        <a href="/JS/simple/Counter.html">Click Count</a>
-        <!--a href="/JS/simple/Clock.html">Clock</a-->
-        <a href="/JS/simple/Timer.html">Simple Timer</a>
-        <a href="/JS/simple/JS_Animation.html">JS Animation</a>
-        <a href="/JS/simple/CSS_Transition.html">CSS Transition</a>
-        <a href="/JS/simple/ArrayAndSet.html">Array & Set Demo</a>
-        <a href="/JS/simple/carousel.html">Image Carousel</a>
-        <a href="/JS/simple/JSON_Teacher.html">JSON Teacher</a>
+        <a href="/pages/math/egim-hesapla.html">Eğim Hesapla</a>
+        <a href="/pages/math/aci-bul.html">Açı Bul</a>
+        <a href="/pages/math/alan-hesapla.html">Alan Hesapla</a>
+        <a href="/pages/math/kelime-say.html">Kelime Say</a>
       </div>
     </li>
-    <li class=Math>Math
+    <li class=pdf>PDF
       <div class=nav_menu>
         <a href="/JS/math/Counting.html">Counting</a>
         <a href="/JS/math/Math%20functions.html">Math Functions</a>
@@ -40,7 +30,7 @@ const NAV =
         <a href="/JS/canvas/solar_system.html">Solar System</a>
       </div>
     </li>
-    <li class=Hard>Hard
+    <li class=karekod>Karekod
       <div class=nav_menu>
         <a href="/JS/hard/JS%20page.html">Page made by JS</a>
         <a href="/JS/hard/Table%20maker.html">Table Maker</a>
@@ -57,22 +47,7 @@ const NAV =
         <a href="/JS/sss/inspector.html">Inspector</a>
       </div>
     </li>
-    <li class=Events>Events
-      <div class=nav_menu>
-        <a href="/JS/simple/Color%20Paragraphs.html">Color Paragraphs</a>
-        <a href="/JS/hard/Events.html">Event Handlers</a>
-        <a href="/JS/hard/Battery.html">Battery & Internet</a>
-        <a href="/JS/hard/Propagation.html">Event Propagation</a>
-        <a href="/JS/hard/Dragging.html">Draggable Elements</a>
-        <a href="/JS/hard/URL_parts.html">URL Parts</a>
-        <a href="/JS/util/Menu_items.html">Menu</a>
-        <a href="/JS/util/Modal_dialog.html">Modal dialog</a>
-        <a href="/JS/util/Details.html">Details-Summary</a>
-        <a href="/JS/util/name-tag.html">Web Components</a>
-        <a href="/JS/hard/DOM%20tree.html">DOM tree</a>
-      </div>
-    </li>
-    <li class=External>External
+    <li class=diger>Diğer
       <div class=nav_menu>
         <a href="/JS/api/qrcode.html">QR Code</a>
         <a href="/JS/api/GitHub_Users.html">GitHub Users</a>
