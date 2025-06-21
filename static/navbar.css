@@ -15,7 +15,7 @@ nav ul {
   top: 0;
   margin: 0;
   padding: 0;
-  background: yellow;
+  background: black;
 }
 nav li {
   display: inline-block;
@@ -40,13 +40,13 @@ nav a:visited {
 nav li, nav a {
   text-align: left;
   font-size: initial;
-  background: yellow;
+  background: black;
   color: white;
   width: initial;
   padding: 8px 10px;
   margin: 0;
 }
 nav li:hover, nav a:hover {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
 }
