@@ -11,9 +11,7 @@ nav {
   font-family: monospace;
 }
 nav ul {
-  align-content: center;
-  text-align: center;
-  font-size: xx-large;
+  /* text-align: center; */
   display: flex;
   white-space: nowrap;
   top: 0;
@@ -25,6 +23,8 @@ nav li {
   display: inline-block;
 }
 nav div {
+  align-content: center;
+  font-size: xx-large;
   position: absolute;
   margin-top: 3px;
   display: none;
@@ -42,7 +42,7 @@ nav a:visited {
   color: purple;
 }
 nav li, nav a {
-  text-align: center;
+  /* text-align: center; */
   font-size: initial;
   background: black;
   color: white;
