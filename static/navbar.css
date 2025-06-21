@@ -3,11 +3,12 @@ body {
 /* user-select: none;*/
 }
 nav {
+  text-align: center;
   width: 100%;
   position: fixed;
   top: 0;
   margin-left: -8px;
-  font-family: "Lucida Console";
+  font-family: monospace;
 }
 nav ul {
   display: flex;
