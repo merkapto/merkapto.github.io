@@ -5,7 +5,7 @@ const NAV =
     nav a {background: black}
 </style> 
 <ul>
-    <li><a href="/">GELLANBORİ</a></li>
+    <li><a href="/"> GELLANBORİ </a></li>
     <li class=math>Matematik
       <div class=nav_menu>
         <a href="/pages/math/egim-hesapla.html">Eğim Hesapla</a>

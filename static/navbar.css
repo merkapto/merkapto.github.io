@@ -38,12 +38,12 @@ nav a {
 nav a:last-child {
   border-bottom: none;
 }
-nav a:visited {
+/* nav a:visited {
   color: purple;
-}
+} */
 nav li, nav a {
   /* text-align: center; */
-  font-size: initial;
+  /* font-size: initial; */
   background: black;
   color: white;
   width: initial;
