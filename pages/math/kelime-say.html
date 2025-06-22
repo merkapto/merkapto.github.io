@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/static/bootstrap.min.css" rel="stylesheet" />
     <script src="/static/bootstrap.bundle.min.js"></script>
     <title>GellanBori</title>
-</head>
+  </head>
 
-<body>
-    
+  <body>
+    <script src="/static/navbar.js"></script>
+    <div class="container">
+      <hr />
+      <h1>Kelime Say</h1>
+      <hr />
 
-    <h1>Kelime Say</h1>
-
-    <h3>Word 
-    <button id=count>Count</button>&ensp;
-    <input type=text id=out size=10 />&ensp;
-    <button id=paste>Paste</button></h3>
-    <textarea id=txa rows=20 style="width:100%">
-    </textarea>
+      <p>
+        <button id="count" class="rounded-start-pill">&nbsp Say &nbsp</button>
+        <input id="out" type="text" size="10" class="text-center" />
+        <button id="paste" class="rounded-end-pill">Yapıştır</button>
+      </p>
+      <textarea id="txa" rows="10" style="width: 100%"> </textarea>
+    </div>
 
     <script>
-    function countWords(s) {
-    s = s.trim(); if (s === '') return 0
-    const E = /[\p{P}\s]+/u   //RegExp
-    const a = s.split(E).filter(x => x)
-    console.log(a); return a.length;
-    }
-    async function doPaste() {
-    const t = await navigator.clipboard.readText()
-    if (!t) return
-    txa.value = t; count.onclick()
-    }
-    sample.innerText = countWords
-    count.onclick = () => out.value = countWords(txa.value)
-    paste.onclick = doPaste
+      function countWords(s) {
+        s = s.trim();
+        if (s === "") return 0;
+        const E = /[\p{P}\s]+/u; //RegExp
+        const a = s.split(E).filter((x) => x);
+        console.log(a);
+        return a.length;
+      }
+      async function doPaste() {
+        const t = await navigator.clipboard.readText();
+        if (!t) return;
+        txa.value = t;
+        count.onclick();
+      }
+      // sample.innerText = countWords
+      count.onclick = () => (out.value = countWords(txa.value));
+      paste.onclick = doPaste;
     </script>
-
-    <script src="/static/navbar.js"></script>
-    
-</body>
-
+  </body>
 </html>
